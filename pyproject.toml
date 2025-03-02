@@ -1,0 +1,21 @@
+[project]
+name = "jk-toolkit"
+version = "0.1.0"
+description = "A little toolkit of utility functions I use across projects"
+readme = "README.md"
+authors = [
+    { name = "Jeppe Klitgaard", email = "hi@jeppe.science" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.9",
+]
