@@ -3,6 +3,7 @@ name = "jk-toolkit"
 version = "0.1.0"
 description = "A little toolkit of utility functions I use across projects"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Jeppe Klitgaard", email = "hi@jeppe.science" }
 ]
